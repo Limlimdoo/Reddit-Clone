@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #acacac;
+    
+  }
+
+.titleofsite {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+
+/* CSS styles for the posts */
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    border: 1px solid #383838;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  li .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  li .body {
+    margin-bottom: 5px;
+  }
+  
+  li .tags {
+    font-style: italic;
+    color: #4d4d4d;
+  }
+  
+  li .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  li .actions button {
+    border-radius: 8px;
+    padding: 5px 10px;
+    background-color: rgb(206, 16, 16), 160, 76;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+  }
+  
+  li .actions button:hover {
+    color: red;
+  }
